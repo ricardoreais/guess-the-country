@@ -8,6 +8,26 @@
 
 [Click here for more  in-game screenshots](https://github.com/ricardoreais/guess-the-country/tree/master/examples)
 
+## Code Example
+
+The game main engine is the random generator, which allows multiple combinations of the same game by generating random wrong answers, random wrong answers positions and also a random image.
+
+```Processing
+void generator() // Generates a completly new set of answers
+{
+  currentCountry = countries[rLandscapes.get(clicker)]; // New country
+  currentCountryPosition = rLandscapes.get(clicker); //New country position
+  rCountries.clear(); //Erases random array of numbers
+  rPositions.clear(); //Erases random array of positions
+  randomCountries(); //List with random countries (i.e. country index)
+  randomPositions(); //List with random positions (position A, position B, position C & position D)
+  if(flagMode1)  
+    generateFlags(); //Generate new flags
+  else if(flagMode2)
+    generateAnswers(); //Generate new answers
+}
+```
+
 ## Getting Started
 ### Prerequisites
 
