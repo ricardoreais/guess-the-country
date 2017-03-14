@@ -2,7 +2,9 @@
 
 "Who Wants to Be a Millionaire?" style game made with Processing. Short and fun game to compete with friends.
 
-![screenshot 1](https://github.com/ricardoreais/guess-the-country/blob/master/examples/mode1.png "Game mode 1")
+![screenshot 1](https://github.com/ricardoreais/guess-the-country/blob/master/examples/menu.png "Game mode 1")
+
+![screenshot 2](https://github.com/ricardoreais/guess-the-country/blob/master/examples/mode1.png "Game mode 1")
 
 ## Getting Started
 ### Prerequisites
