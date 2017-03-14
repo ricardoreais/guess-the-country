@@ -6,6 +6,8 @@
 
 ![screenshot 2](https://github.com/ricardoreais/guess-the-country/blob/master/examples/mode1.png "Game mode 1")
 
+[Click here for more  in-game screenshots](https://github.com/ricardoreais/guess-the-country/tree/master/examples)
+
 ## Getting Started
 ### Prerequisites
 
